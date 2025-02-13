@@ -54,9 +54,12 @@ diamonds_subset_df <- diamonds_df |>
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
+
+diamond_summary <- summary(diamond_clean)
+print(diamond_summary)
+
+# :)
+
 
 
 ```
