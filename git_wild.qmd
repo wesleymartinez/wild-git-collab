@@ -57,7 +57,7 @@ diamonds_subset_df <- diamonds_df |>
 ```{r break-it-1}
 
 
-diamonds_carat_cut_color_price <- diamonds_clean |>
+diamonds_carat_cut_color_price <- diamond_clean |>
   select('carat','cut','color','price')
 
 ### to plot, summarize, calculate something simple using the diamonds
