@@ -24,7 +24,8 @@ library(here)
 ### ggplot2 package) and create a plot of price vs. carat (or some other
 ### variables of your choice)
 
-
+diamond_clean <- diamonds |>
+  clean_names()
 
 
 
