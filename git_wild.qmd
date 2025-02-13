@@ -55,6 +55,14 @@ diamonds_subset_df <- diamonds_df |>
 
 ```{r break-it-1}
 
+
+
+diamond_summary <- summary(diamond_clean)
+print(diamond_summary)
+
+# :)
+
+
 diamonds_histo <- diamonds_subset_df |>
   pivot_longer(cols = where(is.numeric), names_to = "feature", values_to = "value")
 
