@@ -7,6 +7,11 @@ execute:
   warning: false
   message: false
 ---
+```{r}
+
+library(ggplot2)
+
+```
 
 
 ## STEP 5: No merge conflicts!
@@ -23,6 +28,8 @@ execute:
 ### In this code chunk, start with the diamonds dataset (built in to
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
+
+diamonds <- diamonds
 
 
 
