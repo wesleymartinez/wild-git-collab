@@ -27,6 +27,13 @@ diamond_clean <- diamonds |>
   clean_names()
 
 
+
+diamonds_plot <- ggplot(diamond_clean)+
+  geom_point(aes(x=carat,y=price))
+
+
+
+
 ```
 
 ```{r partner 2}

@@ -1,5 +1,13 @@
 Version: 1.0
+<<<<<<< HEAD
 ProjectId: be677b4b-3214-488b-bc8b-e93153f40063
+=======
+<<<<<<< HEAD
+ProjectId: ded99434-612a-4618-8ee5-01799a9d6258
+=======
+ProjectId: 93f2cad5-10bf-4c74-8073-708461c0d450
+>>>>>>> 0ae3d68529028665b1aa914383e268f18dd34d85
+>>>>>>> 71e4ed4ed6bb93b3d7c308c301ead3bce82b3247
 
 RestoreWorkspace: Default
 SaveWorkspace: Default
@@ -12,3 +20,12 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+=======
+>>>>>>> 0ae3d68529028665b1aa914383e268f18dd34d85
+>>>>>>> 71e4ed4ed6bb93b3d7c308c301ead3bce82b3247
