@@ -54,10 +54,16 @@ diamonds_subset_df <- diamonds_df |>
 ## STEP 7: Uh oh, merge conflicts!
 
 ```{r break-it-1}
-### Both partners - delete this comment, then write some code here
-### to plot, summarize, calculate something simple using the diamonds
-### dataset.
 
+diamonds_histo <- diamonds_subset_df |>
+  pivot_longer(cols = where(is.numeric), names_to = "feature", values_to = "value")
+
+histo_plot <- ggplot(diamonds_histo, aes(x = value)) +
+  geom_histogram() +
+  facet_wrap(~feature, scales = "free")+
+  theme_bw()
+
+histo_plot
 
 ```
 
