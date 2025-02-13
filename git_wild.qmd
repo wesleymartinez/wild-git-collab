@@ -7,18 +7,10 @@ execute:
   warning: false
   message: false
 ---
-<<<<<<< HEAD
 ```{r}
 
 library(ggplot2)
-=======
-
-```{r}
-
 library(tidyverse)
-library(janitor)
-library(here)
->>>>>>> 109eb16169675e3b8a2ee0243ddd96044ec4eaf1
 
 ```
 
@@ -30,14 +22,6 @@ library(here)
 ### ggplot2 package) and create a plot of price vs. carat (or some other
 ### variables of your choice)
 
-<<<<<<< HEAD
-=======
-diamond_clean <- diamonds |>
-  clean_names()
-
-
-
->>>>>>> 109eb16169675e3b8a2ee0243ddd96044ec4eaf1
 
 ```
 
@@ -46,11 +30,11 @@ diamond_clean <- diamonds |>
 ### ggplot2 package) and create a subset based on filtering, e.g., 
 ### size greater than 1 carat or cut is "Ideal"
 
-<<<<<<< HEAD
-diamonds <- diamonds
-=======
+diamonds_df <- diamonds
 
->>>>>>> 109eb16169675e3b8a2ee0243ddd96044ec4eaf1
+diamonds_subset_df <- diamonds_df |>
+  filter(carat > 1) |>
+  filter(cut == "Ideal")
 
 
 
