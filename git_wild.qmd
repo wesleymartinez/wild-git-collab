@@ -29,7 +29,6 @@ diamond_clean <- diamonds |>
 
 
 
-
 ```
 
 ```{r partner 2}
