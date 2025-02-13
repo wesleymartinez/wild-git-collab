@@ -24,9 +24,14 @@ library(here)
 ### ggplot2 package) and create a plot of price vs. carat (or some other
 ### variables of your choice)
 
+diamonds
 
+diamonds_clean <- diamonds
 
+diamonds_plot <- ggplot(diamonds)+
+  geom_point(aes(x=carat,y=price))
 
+diamonds_plot
 
 
 ```
